@@ -1,0 +1,14 @@
+markdown: kramdown
+permalink: pretty
+baseurl: '/work'
+
+paginate: 5
+paginate_path: "/page:num/"
+
+safe: false
+gems: [jekyll-paginate, jekyll-feed]
+
+collections:
+ posts:
+  output: true
+  permalink: /blog/:title
